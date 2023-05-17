@@ -1,0 +1,22 @@
+{
+  "name": "ingsoftmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielPlazaola/IngSoft-Mail.git"
+  },
+  "author": "Nosotros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielPlazaola/IngSoft-Mail/issues"
+  },
+  "homepage": "https://github.com/GabrielPlazaola/IngSoft-Mail#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
