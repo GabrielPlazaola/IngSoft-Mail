@@ -1,22 +1,21 @@
 {
-  "name": "ingsoftmail",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GabrielPlazaola/IngSoft-Mail.git"
-  },
-  "author": "Nosotros",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GabrielPlazaola/IngSoft-Mail/issues"
-  },
-  "homepage": "https://github.com/GabrielPlazaola/IngSoft-Mail#readme",
   "dependencies": {
+    "@vercel/node": "^2.14.3",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
